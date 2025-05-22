@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Imagen de Fondo - La Reforma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Crimson+Text&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Crimson Text', serif;
+    }
+
+    .fondo {
+      background-image: url('ft.jpg'); /* Cambia este nombre a tu imagen */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-color: #f5f1e6;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .boton-regreso {
+      position: absolute;
+      bottom: 20px;
+    }
+
+    .boton-regreso a {
+      text-decoration: none;
+      font-family: 'Cinzel', serif;
+      background-color: #a67c52;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .boton-regreso a:hover {
+      background-color: #8b5e3c;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="fondo">
+    <!-- Ya no hay cuadro blanco aquí -->
+
+    <div class="boton-regreso">
+      <a href="index.html">Regresar al inicio</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
